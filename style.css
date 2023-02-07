@@ -21,6 +21,12 @@
 }
 
 /* header and navigtion style */
+.header{
+    background: FFF8F3;
+    background-image: url(./images/header_bg.png), url(./images/developer.png);
+    background-repeat: no-repeat;
+    background-position: bottom right,top left;
+}
 nav{
     display: flex;
     justify-content: space-between;
@@ -54,6 +60,7 @@ nav li{
 .banner-title{
     font-weight: 800;
 font-size: 55px;
+margin-bottom: 15px;
 }
 
 .banner-subtitle{
@@ -64,4 +71,52 @@ font-size: 40px;
     font-size: 15px;
     line-height: 25px;
     color: #757575;
+    margin-bottom: 25px;
+}
+/* main style */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+
+}
+
+/* about section style */
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align:center;
+}
+
+.section-title{
+   
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+    margin-bottom: 30px;
+   
+}
+
+.section-discreption{
+    font-size: 18px;
+    line-height: 30px;
+    color: #757575;
+    margin-bottom: 30px;
+    
+}
+.about-info-cntainer{
+    display: flex;
+    justify-content:space-around;
+}
+ .info-tilte{
+    font-size: 20px;
+    color: #757575;
+    line-height: 30px;
+}
+.info-description{
+    font-weight: 700;
+    font-size: 20px;
+    color: #474747;
+    
 }
